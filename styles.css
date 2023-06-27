@@ -69,3 +69,10 @@ span {
     font-size: 1.5em;
     color: #B48CE0;
 }
+
+span:hover {
+    background-color: lightsalmon;
+    color: darkgreen;
+    transition: background-color .5s;
+    transition: color .5s;
+}
