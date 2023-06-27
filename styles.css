@@ -36,6 +36,12 @@ header h1 {
     background-color: white;
     color: midnightblue;
     box-shadow: 5px 5px 5px 2px lightgrey;
+    opacity: .5;
+    transition: opacity .3s ease;
+}
+
+.card:hover {
+    opacity: 1;
 }
 
 .card img {
@@ -51,6 +57,12 @@ h2, h3, h4, h5, h6 {
 
 #penelope-list {
     list-style-type: none;
+}
+
+li:hover {
+    color: #1182EB;
+    font-size: 18px;
+    transition: font-size .5s ease;
 }
 
 span {
