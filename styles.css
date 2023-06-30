@@ -28,21 +28,21 @@ header h1 {
 
 #one {
     width: 100%;
-    margin: 10px;
+    margin: 20px;
     display: flex;
     justify-content: center;
 }
 
 #two {
     width: 100%;
-    margin: 10px;
+    margin: 50px;
     display: flex;
     justify-content: space-around;
 }
 
 #three {
     width: 100%;
-    margin: 10px;
+    margin: 50px;
     display: flex;
     justify-content: flex-end;
 }
@@ -97,3 +97,12 @@ span:hover {
     transition: background-color .5s;
     transition: color .5s;
 }
+
+#line {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    height: 100px;
+    width: 1px;
+}
+
